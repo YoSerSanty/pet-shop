@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pet Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a Pet Shop</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="inicio">
+      <h2>¡Tu tienda de mascotas de confianza!</h2>
+      <p>En Pet Shop, nos preocupamos por el bienestar de tus mascotas. Ofrecemos una amplia variedad de productos y servicios para asegurarnos de que tus mascotas sean felices y saludables.</p>
+      <img src="IMG/principal.webp" alt="Imagen de mascotas">
+    </section>
+    <section id="productos">
+      <h2>Productos</h2>
+      <ul>
+        <li>Alimentos para mascotas</li>
+        <li>Accesorios para mascotas</li>
+        <li>Juguetes para mascotas</li>
+        <li>Productos de higiene para mascotas</li>
+      </ul>
+    </section>
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Peluquería para mascotas</li>
+        <li>Consultas veterinarias</li>
+        <li>Adopción de mascotas</li>
+        <li>Guardería para mascotas</li>
+      </ul>
+    </section>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>¡Contáctanos para más información sobre nuestros productos y servicios!</p>
+      <form action="enviar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>© 2023 Pet Shop. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>  
